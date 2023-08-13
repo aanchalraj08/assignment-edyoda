@@ -1,0 +1,212 @@
+.SubscriptionForm {
+    flex: 0.3;
+    width: auto;
+    margin: 65px 100px 65px 100px;
+    margin-top: 65px;
+}
+.SubForm {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 20px;
+    border-radius: 12px;
+}
+
+.SubForm_Stepper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.SubForm_Stepper_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.SubForm_Stepper_Number {
+    background: #0096FF;
+    color: white;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border-radius: 32px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.SubForm_Stepper_Step {
+    font-size: 12px;
+    font-weight: 600;
+    color: #3C4852;
+}
+
+.SubForm_Title {
+    font-size: 17.5px;
+    color: #3C4852;
+    margin: 16px 0;
+}
+
+.SubForm_Plans {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SubForm_Plans_Select {
+    width: 96%;
+    border: 2px solid #BEBEBE;
+    padding: 15px 0 15px 12px;
+    border-radius: 6px;
+    font-size: 85%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.SubForm_Plans_Select_Tag { 
+    position: absolute;
+    margin-bottom: 40px;
+    font-size: 70%;
+    margin-left: 33px;
+    background: #F77171;
+    color: white;
+    padding: 2px 22px;
+    border-radius: 0 0 6px 6px;
+}
+
+input {
+    margin: 2px;
+    border: 0px;
+    width: 6%;
+    height: 1.5em;
+    cursor: pointer;
+}
+
+.SubForm_Bill {
+    width: 100%;
+    font-size: 85%;
+}
+
+.SubForm_Bill_BeforeDiscount {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 16px;
+}
+
+.SubForm_Bill_Offer {
+    color: #DE4313;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #DE4313 0%, #DE4313 0.75%, #DE4313 2.92%, #DE4414 6.37%, #DF4515 10.97%, #DF4816 16.59%, #E04B18 23.10%, #E1501B 30.37%, #E3561F 38.27%, #E55E24 46.66%, #E7682B 55.41%, #EB7533 64.39%, #EE843C 73.47%, #F39547 82.52%, #F8A954 91.41%, #FEC163 100%);
+    padding: 3px 2px 2.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 16px;
+
+}
+
+.SubForm_Bill_Offer_Inner {
+    width: 90%;
+    background: rgb(255 255 255 / 80%);
+    padding: 9px 17.4px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.SubForm_Bill_Offer_Title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SubForm_Bill_Offer_Valid {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.SubForm_Bill_Offer_Title > span {
+    font-weight: 600;
+}
+
+.SubForm_Bill_Offer_Valid_Icon {
+    width: auto;
+    height: 16px;
+}
+
+.SubForm_TotalAmount{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    padding: 0 22px;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.SubForm_TotalAmount > span {
+    font-size: 13.5px;
+    display: flex;
+    gap: 6px;
+}
+
+.SubForm_TotalAmount > span > p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.SubForm_TotalAmount > b {
+    font-size: 22px;
+    
+}
+
+.SubForm_Plans_Select_Checkmark {
+    width: auto;
+    height: 25px;
+}
+
+.SubForm_Action {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.SubForm_Action_Buttons {
+    height: 40px;
+    font-size: 80%;
+    font-weight: 500;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.CancelBtn {
+    border: 2px solid #F77171;
+    color: #F77171;
+}
+
+.ProceedBtn {
+    border: 2px solid #47BA68;
+    color: white;
+    background-color: #47BA68;
+}
+ 
+.payGatewayIcon {
+    width: auto;
+    height: 35px;
+    align-self: start;
+    margin-top: 12px;
+}

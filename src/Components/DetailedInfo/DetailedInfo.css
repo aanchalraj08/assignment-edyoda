@@ -1,0 +1,38 @@
+.DetailedInfo {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 65px;
+    gap: 56px;
+}
+
+.DetailedInfo_Title {
+    color: white;
+    margin: 0;
+    font-weight: 600;
+    width: 70%;
+    font-size: 44px;
+    text-align: flex-start;
+}
+
+.DetailedInfo_FeatureList {
+    color: white;
+    font-size: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+
+.DetailedInfo_Feature {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.DetailedInfo_Feature_Icon{
+    width: auto;
+    height: 48px;
+}
